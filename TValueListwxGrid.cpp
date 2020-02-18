@@ -1,13 +1,13 @@
 
 
 // "Grid" is a wxGrid
-// "Frame::OnGridKeyDown" is an event handler associated with Grid situated in Frame
+// "Frame::OnGridKeyDown" is an EVT_KEY_DOWN event handler associated with Grid situated in Frame
 
 
 
 void Frame::OnGridKeyDown(wxKeyEvent& event)
 {
-    switch ( event.GetKeyCode() )
+    switch (event.GetKeyCode())
     {
         case WXK_PAGEDOWN:
             if (Grid->GetGridCursorRow()==(Grid->GetRows()-1)) Grid->AppendRows();
