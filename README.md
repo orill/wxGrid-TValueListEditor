@@ -1,5 +1,5 @@
 # wxGrid-TValueListEditor
-LCL / VCL TValueListEditor behaviour of wxGrid in wxWidgets
+LCL / VCL TValueListEditor behaviour of wxGrid with wxWidgets
 
 Here is an attempt to reproduce the behavior of LCL / VCL TValueListEditor widget where rows are added by the "PageDown" key.
 The last row is deleted by the "PageUp" key.
